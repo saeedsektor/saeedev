@@ -43,3 +43,7 @@ sitemap*.xml
 
 # TS
 *.tsbuildinfo
+
+# pub
+sektor.pub
+sektor
