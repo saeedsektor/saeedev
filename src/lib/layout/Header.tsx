@@ -9,10 +9,6 @@ const Header = () => {
       <Heading as="h1" size="md">
         <Link href="/">saeedev</Link>
       </Heading>
-
-      <Box marginLeft="auto">
-        <ThemeToggle />
-      </Box>
     </Flex>
   );
 };
