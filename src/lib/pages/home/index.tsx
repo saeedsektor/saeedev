@@ -1,12 +1,18 @@
-import { Box } from "@chakra-ui/react";
-
-import CTASection from "lib/components/samples/CTASection";
-import SomeImage from "lib/components/samples/SomeImage";
-import SomeText from "lib/components/samples/SomeText";
+import { Box, Center, Image } from "@chakra-ui/react";
 
 const Home = () => {
   return (
-    <Box></Box>
+    <Box>
+      {/* <Center>
+        <Image
+          boxSize="250"
+          objectFit="cover"
+          src="/skdev-logo.png"
+          alt="saeedev logo"
+          alignSelf="center"
+        />
+      </Center> */}
+    </Box>
   );
 };
 
