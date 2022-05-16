@@ -1,1 +1,30 @@
 /* Global Styling here */
+.bio-text {
+    line-height: 2rem;
+}
+
+.services-card {
+    border:1px solid #e6e6e6;
+    padding:2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nav-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-item:hover {
+    color: #fa4a4a;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: 45% 30%;
+}
+
+.stars-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
